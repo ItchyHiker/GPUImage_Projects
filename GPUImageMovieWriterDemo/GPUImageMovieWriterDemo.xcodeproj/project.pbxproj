@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96EBDE027EFFA93EA668E5C2 /* libPods-GPUImageMovieWriterDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CD629CA62F7A121765FC9D /* libPods-GPUImageMovieWriterDemo.a */; };
+		BF27F4DF2472AEE200B69FBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF27F4DE2472AEE200B69FBE /* AppDelegate.m */; };
+		BF27F4E22472AEE200B69FBE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF27F4E12472AEE200B69FBE /* SceneDelegate.m */; };
+		BF27F4E52472AEE200B69FBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF27F4E42472AEE200B69FBE /* ViewController.m */; };
+		BF27F4E82472AEE200B69FBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF27F4E62472AEE200B69FBE /* Main.storyboard */; };
+		BF27F4EA2472AEE500B69FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF27F4E92472AEE500B69FBE /* Assets.xcassets */; };
+		BF27F4ED2472AEE500B69FBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF27F4EB2472AEE500B69FBE /* LaunchScreen.storyboard */; };
+		BF27F4F02472AEE500B69FBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF27F4EF2472AEE500B69FBE /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C67EE8B7FA6E80FD4C2AD12 /* Pods-GPUImageMovieWriterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageMovieWriterDemo.release.xcconfig"; path = "Target Support Files/Pods-GPUImageMovieWriterDemo/Pods-GPUImageMovieWriterDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7D1EF35865969B66D9DC619C /* Pods-GPUImageMovieWriterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageMovieWriterDemo.debug.xcconfig"; path = "Target Support Files/Pods-GPUImageMovieWriterDemo/Pods-GPUImageMovieWriterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B6CD629CA62F7A121765FC9D /* libPods-GPUImageMovieWriterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPUImageMovieWriterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF27F4DA2472AEE200B69FBE /* GPUImageMovieWriterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPUImageMovieWriterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF27F4DD2472AEE200B69FBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF27F4DE2472AEE200B69FBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF27F4E02472AEE200B69FBE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BF27F4E12472AEE200B69FBE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BF27F4E32472AEE200B69FBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF27F4E42472AEE200B69FBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF27F4E72472AEE200B69FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF27F4E92472AEE500B69FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF27F4EC2472AEE500B69FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF27F4EE2472AEE500B69FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF27F4EF2472AEE500B69FBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF27F4D72472AEE200B69FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96EBDE027EFFA93EA668E5C2 /* libPods-GPUImageMovieWriterDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0298BF020F4EAF920E996C3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D1EF35865969B66D9DC619C /* Pods-GPUImageMovieWriterDemo.debug.xcconfig */,
+				7C67EE8B7FA6E80FD4C2AD12 /* Pods-GPUImageMovieWriterDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6053A581AF3F2D3BE93ADAF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6CD629CA62F7A121765FC9D /* libPods-GPUImageMovieWriterDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF27F4D12472AEE200B69FBE = {
+			isa = PBXGroup;
+			children = (
+				BF27F4DC2472AEE200B69FBE /* GPUImageMovieWriterDemo */,
+				BF27F4DB2472AEE200B69FBE /* Products */,
+				0298BF020F4EAF920E996C3E /* Pods */,
+				6053A581AF3F2D3BE93ADAF7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF27F4DB2472AEE200B69FBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF27F4DA2472AEE200B69FBE /* GPUImageMovieWriterDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF27F4DC2472AEE200B69FBE /* GPUImageMovieWriterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BF27F4DD2472AEE200B69FBE /* AppDelegate.h */,
+				BF27F4DE2472AEE200B69FBE /* AppDelegate.m */,
+				BF27F4E02472AEE200B69FBE /* SceneDelegate.h */,
+				BF27F4E12472AEE200B69FBE /* SceneDelegate.m */,
+				BF27F4E32472AEE200B69FBE /* ViewController.h */,
+				BF27F4E42472AEE200B69FBE /* ViewController.m */,
+				BF27F4E62472AEE200B69FBE /* Main.storyboard */,
+				BF27F4E92472AEE500B69FBE /* Assets.xcassets */,
+				BF27F4EB2472AEE500B69FBE /* LaunchScreen.storyboard */,
+				BF27F4EE2472AEE500B69FBE /* Info.plist */,
+				BF27F4EF2472AEE500B69FBE /* main.m */,
+			);
+			path = GPUImageMovieWriterDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF27F4D92472AEE200B69FBE /* GPUImageMovieWriterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF27F4F32472AEE500B69FBE /* Build configuration list for PBXNativeTarget "GPUImageMovieWriterDemo" */;
+			buildPhases = (
+				B0BC429A74728E241B39D6D9 /* [CP] Check Pods Manifest.lock */,
+				BF27F4D62472AEE200B69FBE /* Sources */,
+				BF27F4D72472AEE200B69FBE /* Frameworks */,
+				BF27F4D82472AEE200B69FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPUImageMovieWriterDemo;
+			productName = GPUImageMovieWriterDemo;
+			productReference = BF27F4DA2472AEE200B69FBE /* GPUImageMovieWriterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF27F4D22472AEE200B69FBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = vincent;
+				TargetAttributes = {
+					BF27F4D92472AEE200B69FBE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BF27F4D52472AEE200B69FBE /* Build configuration list for PBXProject "GPUImageMovieWriterDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF27F4D12472AEE200B69FBE;
+			productRefGroup = BF27F4DB2472AEE200B69FBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF27F4D92472AEE200B69FBE /* GPUImageMovieWriterDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF27F4D82472AEE200B69FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF27F4ED2472AEE500B69FBE /* LaunchScreen.storyboard in Resources */,
+				BF27F4EA2472AEE500B69FBE /* Assets.xcassets in Resources */,
+				BF27F4E82472AEE200B69FBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B0BC429A74728E241B39D6D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPUImageMovieWriterDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF27F4D62472AEE200B69FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF27F4E52472AEE200B69FBE /* ViewController.m in Sources */,
+				BF27F4DF2472AEE200B69FBE /* AppDelegate.m in Sources */,
+				BF27F4F02472AEE500B69FBE /* main.m in Sources */,
+				BF27F4E22472AEE200B69FBE /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF27F4E62472AEE200B69FBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF27F4E72472AEE200B69FBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF27F4EB2472AEE500B69FBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF27F4EC2472AEE500B69FBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF27F4F12472AEE500B69FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF27F4F22472AEE500B69FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF27F4F42472AEE500B69FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D1EF35865969B66D9DC619C /* Pods-GPUImageMovieWriterDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WUNJD37RX7;
+				INFOPLIST_FILE = GPUImageMovieWriterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vincent.itchyhacker.GPUImageMovieWriterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF27F4F52472AEE500B69FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C67EE8B7FA6E80FD4C2AD12 /* Pods-GPUImageMovieWriterDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WUNJD37RX7;
+				INFOPLIST_FILE = GPUImageMovieWriterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vincent.itchyhacker.GPUImageMovieWriterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF27F4D52472AEE200B69FBE /* Build configuration list for PBXProject "GPUImageMovieWriterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF27F4F12472AEE500B69FBE /* Debug */,
+				BF27F4F22472AEE500B69FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF27F4F32472AEE500B69FBE /* Build configuration list for PBXNativeTarget "GPUImageMovieWriterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF27F4F42472AEE500B69FBE /* Debug */,
+				BF27F4F52472AEE500B69FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF27F4D22472AEE200B69FBE /* Project object */;
+}

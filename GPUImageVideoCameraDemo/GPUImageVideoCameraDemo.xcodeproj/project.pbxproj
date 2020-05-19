@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BFC7099A448303A0BFA51FE /* libPods-GPUImageVideoCameraDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301AB34F93784953FD17BDAC /* libPods-GPUImageVideoCameraDemo.a */; };
+		BF27F52D2473C18D00B69FBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF27F52C2473C18D00B69FBE /* AppDelegate.m */; };
+		BF27F5302473C18D00B69FBE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF27F52F2473C18D00B69FBE /* SceneDelegate.m */; };
+		BF27F5332473C18D00B69FBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF27F5322473C18D00B69FBE /* ViewController.m */; };
+		BF27F5362473C18D00B69FBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF27F5342473C18D00B69FBE /* Main.storyboard */; };
+		BF27F5382473C19000B69FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF27F5372473C19000B69FBE /* Assets.xcassets */; };
+		BF27F53B2473C19000B69FBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF27F5392473C19000B69FBE /* LaunchScreen.storyboard */; };
+		BF27F53E2473C19000B69FBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF27F53D2473C19000B69FBE /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		301AB34F93784953FD17BDAC /* libPods-GPUImageVideoCameraDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPUImageVideoCameraDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3650DC9BF6C15B4E8C2945EF /* Pods-GPUImageVideoCameraDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageVideoCameraDemo.debug.xcconfig"; path = "Target Support Files/Pods-GPUImageVideoCameraDemo/Pods-GPUImageVideoCameraDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		56D3927E64921B14D4EDC4A3 /* Pods-GPUImageVideoCameraDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageVideoCameraDemo.release.xcconfig"; path = "Target Support Files/Pods-GPUImageVideoCameraDemo/Pods-GPUImageVideoCameraDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BF27F5282473C18D00B69FBE /* GPUImageVideoCameraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPUImageVideoCameraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF27F52B2473C18D00B69FBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF27F52C2473C18D00B69FBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF27F52E2473C18D00B69FBE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BF27F52F2473C18D00B69FBE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BF27F5312473C18D00B69FBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF27F5322473C18D00B69FBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF27F5352473C18D00B69FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF27F5372473C19000B69FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF27F53A2473C19000B69FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF27F53C2473C19000B69FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF27F53D2473C19000B69FBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF27F5252473C18D00B69FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFC7099A448303A0BFA51FE /* libPods-GPUImageVideoCameraDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A40A7D5AA77E893D2A59CE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				301AB34F93784953FD17BDAC /* libPods-GPUImageVideoCameraDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E1FFB3953895C2F79D81C4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3650DC9BF6C15B4E8C2945EF /* Pods-GPUImageVideoCameraDemo.debug.xcconfig */,
+				56D3927E64921B14D4EDC4A3 /* Pods-GPUImageVideoCameraDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BF27F51F2473C18D00B69FBE = {
+			isa = PBXGroup;
+			children = (
+				BF27F52A2473C18D00B69FBE /* GPUImageVideoCameraDemo */,
+				BF27F5292473C18D00B69FBE /* Products */,
+				4E1FFB3953895C2F79D81C4B /* Pods */,
+				4A40A7D5AA77E893D2A59CE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF27F5292473C18D00B69FBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF27F5282473C18D00B69FBE /* GPUImageVideoCameraDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF27F52A2473C18D00B69FBE /* GPUImageVideoCameraDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BF27F52B2473C18D00B69FBE /* AppDelegate.h */,
+				BF27F52C2473C18D00B69FBE /* AppDelegate.m */,
+				BF27F52E2473C18D00B69FBE /* SceneDelegate.h */,
+				BF27F52F2473C18D00B69FBE /* SceneDelegate.m */,
+				BF27F5312473C18D00B69FBE /* ViewController.h */,
+				BF27F5322473C18D00B69FBE /* ViewController.m */,
+				BF27F5342473C18D00B69FBE /* Main.storyboard */,
+				BF27F5372473C19000B69FBE /* Assets.xcassets */,
+				BF27F5392473C19000B69FBE /* LaunchScreen.storyboard */,
+				BF27F53C2473C19000B69FBE /* Info.plist */,
+				BF27F53D2473C19000B69FBE /* main.m */,
+			);
+			path = GPUImageVideoCameraDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF27F5272473C18D00B69FBE /* GPUImageVideoCameraDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF27F5412473C19000B69FBE /* Build configuration list for PBXNativeTarget "GPUImageVideoCameraDemo" */;
+			buildPhases = (
+				16E7C8C09C8E310213578F94 /* [CP] Check Pods Manifest.lock */,
+				BF27F5242473C18D00B69FBE /* Sources */,
+				BF27F5252473C18D00B69FBE /* Frameworks */,
+				BF27F5262473C18D00B69FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPUImageVideoCameraDemo;
+			productName = GPUImageVideoCameraDemo;
+			productReference = BF27F5282473C18D00B69FBE /* GPUImageVideoCameraDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF27F5202473C18D00B69FBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = vincent;
+				TargetAttributes = {
+					BF27F5272473C18D00B69FBE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BF27F5232473C18D00B69FBE /* Build configuration list for PBXProject "GPUImageVideoCameraDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF27F51F2473C18D00B69FBE;
+			productRefGroup = BF27F5292473C18D00B69FBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF27F5272473C18D00B69FBE /* GPUImageVideoCameraDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF27F5262473C18D00B69FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF27F53B2473C19000B69FBE /* LaunchScreen.storyboard in Resources */,
+				BF27F5382473C19000B69FBE /* Assets.xcassets in Resources */,
+				BF27F5362473C18D00B69FBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16E7C8C09C8E310213578F94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPUImageVideoCameraDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF27F5242473C18D00B69FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF27F5332473C18D00B69FBE /* ViewController.m in Sources */,
+				BF27F52D2473C18D00B69FBE /* AppDelegate.m in Sources */,
+				BF27F53E2473C19000B69FBE /* main.m in Sources */,
+				BF27F5302473C18D00B69FBE /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF27F5342473C18D00B69FBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF27F5352473C18D00B69FBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF27F5392473C19000B69FBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF27F53A2473C19000B69FBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF27F53F2473C19000B69FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF27F5402473C19000B69FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF27F5422473C19000B69FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3650DC9BF6C15B4E8C2945EF /* Pods-GPUImageVideoCameraDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WUNJD37RX7;
+				INFOPLIST_FILE = GPUImageVideoCameraDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vincent.itchyhacker.GPUImageVideoCameraDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF27F5432473C19000B69FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56D3927E64921B14D4EDC4A3 /* Pods-GPUImageVideoCameraDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WUNJD37RX7;
+				INFOPLIST_FILE = GPUImageVideoCameraDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vincent.itchyhacker.GPUImageVideoCameraDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF27F5232473C18D00B69FBE /* Build configuration list for PBXProject "GPUImageVideoCameraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF27F53F2473C19000B69FBE /* Debug */,
+				BF27F5402473C19000B69FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF27F5412473C19000B69FBE /* Build configuration list for PBXNativeTarget "GPUImageVideoCameraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF27F5422473C19000B69FBE /* Debug */,
+				BF27F5432473C19000B69FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF27F5202473C18D00B69FBE /* Project object */;
+}
