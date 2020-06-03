@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7172C1142BA08BE8AAF28C4B /* libPods-GPUImageMosaicFilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F84CC9D78C759B20EE1D4C46 /* libPods-GPUImageMosaicFilter.a */; };
+		BF6CD5D2248785F000B87BC0 /* GPUImageCircleMosaicFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6CD5D1248785F000B87BC0 /* GPUImageCircleMosaicFilter.m */; };
+		BF965D6D248753230014D535 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF965D6C248753230014D535 /* AppDelegate.m */; };
+		BF965D70248753230014D535 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF965D6F248753230014D535 /* SceneDelegate.m */; };
+		BF965D73248753230014D535 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF965D72248753230014D535 /* ViewController.m */; };
+		BF965D76248753230014D535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF965D74248753230014D535 /* Main.storyboard */; };
+		BF965D78248753250014D535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF965D77248753250014D535 /* Assets.xcassets */; };
+		BF965D7B248753250014D535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF965D79248753250014D535 /* LaunchScreen.storyboard */; };
+		BF965D7E248753250014D535 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF965D7D248753250014D535 /* main.m */; };
+		BF965D85248755590014D535 /* face.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF965D84248755590014D535 /* face.jpg */; };
+		BFF20B3D248774A20045AD7A /* squares.png in Resources */ = {isa = PBXBuildFile; fileRef = BFF20B3C248774A20045AD7A /* squares.png */; };
+		BFF20B40248774EC0045AD7A /* GPUImageSquareMosaicFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF20B3F248774EC0045AD7A /* GPUImageSquareMosaicFilter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC1316E6BFE376096DE38774 /* Pods-GPUImageMosaicFilter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageMosaicFilter.debug.xcconfig"; path = "Target Support Files/Pods-GPUImageMosaicFilter/Pods-GPUImageMosaicFilter.debug.xcconfig"; sourceTree = "<group>"; };
+		BF6CD5D0248785F000B87BC0 /* GPUImageCircleMosaicFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPUImageCircleMosaicFilter.h; sourceTree = "<group>"; };
+		BF6CD5D1248785F000B87BC0 /* GPUImageCircleMosaicFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUImageCircleMosaicFilter.m; sourceTree = "<group>"; };
+		BF965D68248753230014D535 /* GPUImageMosaicFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPUImageMosaicFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF965D6B248753230014D535 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF965D6C248753230014D535 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF965D6E248753230014D535 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BF965D6F248753230014D535 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BF965D71248753230014D535 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF965D72248753230014D535 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF965D75248753230014D535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF965D77248753250014D535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF965D7A248753250014D535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF965D7C248753250014D535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF965D7D248753250014D535 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF965D84248755590014D535 /* face.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = face.jpg; sourceTree = "<group>"; };
+		BFF20B3C248774A20045AD7A /* squares.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squares.png; sourceTree = "<group>"; };
+		BFF20B3E248774EC0045AD7A /* GPUImageSquareMosaicFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPUImageSquareMosaicFilter.h; sourceTree = "<group>"; };
+		BFF20B3F248774EC0045AD7A /* GPUImageSquareMosaicFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUImageSquareMosaicFilter.m; sourceTree = "<group>"; };
+		E55C2235BAAD7C706FB41967 /* Pods-GPUImageMosaicFilter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageMosaicFilter.release.xcconfig"; path = "Target Support Files/Pods-GPUImageMosaicFilter/Pods-GPUImageMosaicFilter.release.xcconfig"; sourceTree = "<group>"; };
+		F84CC9D78C759B20EE1D4C46 /* libPods-GPUImageMosaicFilter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPUImageMosaicFilter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF965D65248753230014D535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7172C1142BA08BE8AAF28C4B /* libPods-GPUImageMosaicFilter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1033E5C199EF3F1D804D35CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC1316E6BFE376096DE38774 /* Pods-GPUImageMosaicFilter.debug.xcconfig */,
+				E55C2235BAAD7C706FB41967 /* Pods-GPUImageMosaicFilter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		12D515CE8FDF717D0766B37D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F84CC9D78C759B20EE1D4C46 /* libPods-GPUImageMosaicFilter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF965D5F248753230014D535 = {
+			isa = PBXGroup;
+			children = (
+				BFF20B3C248774A20045AD7A /* squares.png */,
+				BF965D84248755590014D535 /* face.jpg */,
+				BF965D6A248753230014D535 /* GPUImageMosaicFilter */,
+				BF965D69248753230014D535 /* Products */,
+				1033E5C199EF3F1D804D35CA /* Pods */,
+				12D515CE8FDF717D0766B37D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF965D69248753230014D535 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF965D68248753230014D535 /* GPUImageMosaicFilter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF965D6A248753230014D535 /* GPUImageMosaicFilter */ = {
+			isa = PBXGroup;
+			children = (
+				BF965D6B248753230014D535 /* AppDelegate.h */,
+				BF965D6C248753230014D535 /* AppDelegate.m */,
+				BF965D6E248753230014D535 /* SceneDelegate.h */,
+				BF965D6F248753230014D535 /* SceneDelegate.m */,
+				BF965D71248753230014D535 /* ViewController.h */,
+				BF965D72248753230014D535 /* ViewController.m */,
+				BFF20B3E248774EC0045AD7A /* GPUImageSquareMosaicFilter.h */,
+				BFF20B3F248774EC0045AD7A /* GPUImageSquareMosaicFilter.m */,
+				BF6CD5D0248785F000B87BC0 /* GPUImageCircleMosaicFilter.h */,
+				BF6CD5D1248785F000B87BC0 /* GPUImageCircleMosaicFilter.m */,
+				BF965D74248753230014D535 /* Main.storyboard */,
+				BF965D77248753250014D535 /* Assets.xcassets */,
+				BF965D79248753250014D535 /* LaunchScreen.storyboard */,
+				BF965D7C248753250014D535 /* Info.plist */,
+				BF965D7D248753250014D535 /* main.m */,
+			);
+			path = GPUImageMosaicFilter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF965D67248753230014D535 /* GPUImageMosaicFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF965D81248753260014D535 /* Build configuration list for PBXNativeTarget "GPUImageMosaicFilter" */;
+			buildPhases = (
+				CDAB53FABD9E6F087AB34A6E /* [CP] Check Pods Manifest.lock */,
+				BF965D64248753230014D535 /* Sources */,
+				BF965D65248753230014D535 /* Frameworks */,
+				BF965D66248753230014D535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPUImageMosaicFilter;
+			productName = GPUImageMosaicFilter;
+			productReference = BF965D68248753230014D535 /* GPUImageMosaicFilter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF965D60248753230014D535 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = vincent;
+				TargetAttributes = {
+					BF965D67248753230014D535 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BF965D63248753230014D535 /* Build configuration list for PBXProject "GPUImageMosaicFilter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF965D5F248753230014D535;
+			productRefGroup = BF965D69248753230014D535 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF965D67248753230014D535 /* GPUImageMosaicFilter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF965D66248753230014D535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF20B3D248774A20045AD7A /* squares.png in Resources */,
+				BF965D7B248753250014D535 /* LaunchScreen.storyboard in Resources */,
+				BF965D78248753250014D535 /* Assets.xcassets in Resources */,
+				BF965D85248755590014D535 /* face.jpg in Resources */,
+				BF965D76248753230014D535 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CDAB53FABD9E6F087AB34A6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPUImageMosaicFilter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF965D64248753230014D535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF20B40248774EC0045AD7A /* GPUImageSquareMosaicFilter.m in Sources */,
+				BF965D73248753230014D535 /* ViewController.m in Sources */,
+				BF6CD5D2248785F000B87BC0 /* GPUImageCircleMosaicFilter.m in Sources */,
+				BF965D6D248753230014D535 /* AppDelegate.m in Sources */,
+				BF965D7E248753250014D535 /* main.m in Sources */,
+				BF965D70248753230014D535 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF965D74248753230014D535 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF965D75248753230014D535 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF965D79248753250014D535 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF965D7A248753250014D535 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF965D7F248753250014D535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF965D80248753250014D535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF965D82248753260014D535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC1316E6BFE376096DE38774 /* Pods-GPUImageMosaicFilter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WUNJD37RX7;
+				INFOPLIST_FILE = GPUImageMosaicFilter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vincent.itchyhacker.GPUImageMosaicFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF965D83248753260014D535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E55C2235BAAD7C706FB41967 /* Pods-GPUImageMosaicFilter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WUNJD37RX7;
+				INFOPLIST_FILE = GPUImageMosaicFilter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vincent.itchyhacker.GPUImageMosaicFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF965D63248753230014D535 /* Build configuration list for PBXProject "GPUImageMosaicFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF965D7F248753250014D535 /* Debug */,
+				BF965D80248753250014D535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF965D81248753260014D535 /* Build configuration list for PBXNativeTarget "GPUImageMosaicFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF965D82248753260014D535 /* Debug */,
+				BF965D83248753260014D535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF965D60248753230014D535 /* Project object */;
+}
