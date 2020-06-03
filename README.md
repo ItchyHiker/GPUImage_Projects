@@ -1,1 +1,1 @@
-# GPUImage_projects
+# GPUImage_Projects
