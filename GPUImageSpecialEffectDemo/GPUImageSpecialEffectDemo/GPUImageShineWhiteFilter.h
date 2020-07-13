@@ -11,7 +11,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface GPUImageShineWhiteFilter : GPUImageFilter
-
+{
+    GLfloat timeUniform;
+}
+@property (nonatomic, readwrite) CGFloat time;
 @end
 
 NS_ASSUME_NONNULL_END
