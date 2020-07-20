@@ -15,7 +15,7 @@ NSString * const kGPUImageGlitchFilterFragmentShaderString = SHADER_STRING
  uniform float time;
  const float PI = 3.1415926;
  // random function
- float rand(float n) {
+ float mrand(float n) {
     // fract(x) return the decimal of x
     return fract(sin(n) * 43758.5453123);
  }
@@ -24,18 +24,15 @@ NSString * const kGPUImageGlitchFilterFragmentShaderString = SHADER_STRING
     float maxJitter = 0.06;
     float duration  = 0.3;
     float colorROffset = 0.01;
-    float colorGoffset = -0.02;
+    float colorGOffset = -0.02;
     float colorBOffset = -0.035;
     
     float currentTime = mod(time, duration*2.0); // [0, 1]
     float amplitude = max( sin( currentTime*(PI/duration) ) , 0.0); // [0, 1]
     float jitter = rand(textureCoordinate.y) * 2.0 - 1.0; // [-1, 1]
-    bool needOffset = abs(jitter) < maxJitter * amplitude;
-    // 获取纹理X值.根据needOffset，来计算它X撕裂.
-    // needOffset = YES，撕裂较大;
-    // needOffset = NO，撕裂较小.
+    bool needOffsets = abs(jitter) < maxJitter * amplitude;
     
-    float textureX = textureCoordinate.x + (needOffset ? jitter : (jitter * amplitude * 0.006));
+    float textureX = textureCoordinate.x + (needOffsets ? jitter : (jitter * amplitude * 0.006));
     vec2 textureCoords = vec2(textureX, textureCoordinate.y);
     
     vec4 mask = texture2D(inputImageTexture, textureCoords);
